@@ -2,8 +2,9 @@
 # KonataAndroid
 ## Introduction
 
-看[视频](https://www.bilibili.com/video/av38409964?from=search&seid=6947350034981289381)学习安卓开发
-代码中有许多注释，可以作为参考
+看视频学习安卓开发的记录
+
+代码中有许多注释，可以作为资料参考
 
 ---
 
@@ -11,7 +12,7 @@
 
 - Icon from [AlibabaIconFont](https://www.iconfont.cn/)
 
-- Some of the content reference [taifus](https://github.com/taifus)
+- Study materials from [天哥在奔跑](https://www.bilibili.com/video/av38409964?from=search&seid=17417564132229764986)[taifus](https://github.com/taifus/)
 
 ---
 
