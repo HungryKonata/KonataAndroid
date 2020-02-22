@@ -7,6 +7,12 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
     <Button
+        android:id="@+id/btn_radio"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="RadioButton"
+        android:textAllCaps="false"/>
+    <Button
         android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="70dp"

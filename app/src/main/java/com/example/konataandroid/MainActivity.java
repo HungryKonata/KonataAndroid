@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mBtnProgv;
     private Button mBtnCostomDv;
     private Button mBtnPop;
+    private Button mBtnRadiov;
 
 
 
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnProgv = findViewById(R.id.btn_progress);
         mBtnCostomDv = findViewById(R.id.btn_custom_dialog);
         mBtnPop = findViewById(R.id.btn_pop_wd);
+        mBtnRadiov = findViewById(R.id.btn_radio);
 
 
         setListeners();
@@ -47,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnProgv.setOnClickListener(onClick);
         mBtnCostomDv.setOnClickListener(onClick);
         mBtnPop.setOnClickListener(onClick);
+        mBtnRadiov.setOnClickListener(onClick);
     }
 
     class OnClick implements View.OnClickListener{
@@ -75,6 +78,9 @@ public class MainActivity extends AppCompatActivity {
                     break;
                 case R.id.btn_pop_wd:
                     intent = new Intent(MainActivity.this, PopupActivity.class);
+                    break;
+                case R.id.btn_radio:
+                    intent = new Intent(MainActivity.this, RadioActivity.class);
                     break;
                 default:
                     break;

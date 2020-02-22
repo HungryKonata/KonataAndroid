@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="linearRecyclerView"/>
     <Button
-        android:id="@+id/rvBtn2"
+        android:id="@+id/btn_pu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="HorRecyclerView"/>
